@@ -15,8 +15,6 @@ Savedata()
 
 window.addEventListener('load', loadFunc)
 function loadFunc(){
-   
     input.value = localStorage.getItem("typedData");
- 
 }
 
